@@ -1,0 +1,24 @@
+<!-- templates/carsharing/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Car Sharing{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <!-- Je navigatiemenu hier -->
+    </nav>
+    
+    <div class="content">
+        {% block content %}
+        <!-- De hoofdinhoud van de pagina wordt hier ingevoegd -->
+        {% endblock %}
+    </div>
+
+    <footer>
+        <!-- Je footer hier -->
+    </footer>
+</body>
+</html>
